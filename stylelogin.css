@@ -1,0 +1,118 @@
+.logo{
+   text-decoration: none;
+   font-size: 30px;
+   position: absolute;
+   padding-left: 30px;
+} 
+.div{
+    border: 2px solid white;
+    background-color: white;
+    height: 280px;
+    position: absolute;
+    top: 210px;
+    left: 500px;
+    width: 350px;
+
+}
+#small{
+    display: none;
+}
+#nav2{
+  display: none;
+  height: 70px;
+}
+.button{
+   color: #1188d1;
+   width: 270px;
+}
+.lang{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.language{
+    color: black;
+} 
+.help{
+    color:white;
+    position: absolute;
+    top: 500px;
+    left: 690px;
+    text-decoration: none;
+}
+.Privacy{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+    left: 735px;
+} 
+.Terms{
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    text-decoration: none;
+}
+.end{
+    position: absolute;
+    top: 600px;
+    left: 1050px;
+    color: gray;
+}
+@media screen and (max-width:475px) {
+    .div{
+        top: 50px;
+        left: 0px;
+        /* background-color: rebeccapurple;  */
+        width: 295px;
+        height: 330px;
+    }
+    .img{
+        display: none;
+    }
+    .form-control{
+        width: 50px;
+        padding-left: 0px;
+    }
+    .help{
+        color: black;
+        top: 440px;
+        left: 115px;
+    }
+    .Privacy{
+        color: black;
+        top: 440px;
+        left: 170px;
+    }
+    .Terms{
+        color: black;
+        top: 440px;
+        left: 230px;
+    }
+    .lang{
+      color: black;
+      top: 440px;
+      left: 15px;
+    }
+    .end{
+       display: none; 
+    }
+    #nav2{
+        display: block;
+        width: 83%;
+        height: 30px;
+    }
+    #nav1{
+        display: none;
+    }
+    #small{
+        display: block;
+    }
+    #form{
+        display: none;
+    }
+}

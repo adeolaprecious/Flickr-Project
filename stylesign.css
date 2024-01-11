@@ -1,0 +1,185 @@
+/*  */
+.div{
+    border: 2px solid white;
+    background-color: white;
+    height:690px;
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    width: 350px;
+    /* text-align: center;  */
+}
+.p{
+    font-size: x-large;
+    text-align: center; 
+}
+#nav2{
+    display: none;
+}
+.dot{
+   transform: translateX(120px);
+}
+.robort{
+    border: 1px solid #f9f9f9;
+    height: 70px;
+    margin: 20px;
+    background-color: rgb(247, 238, 212);
+}
+.input{
+    margin: 4px 0 0 15px;
+    line-height: normal;
+    width: 40px;
+    height: 60px;
+   
+}
+.label{
+   position: absolute;
+   left: 90px;
+   top: 460px;
+}
+.text{
+    position: absolute;
+    top: 650px;
+    left: 570px; 
+    font-size: 12px;
+} 
+.and{
+    text-decoration: none;
+    color: #1188d1;
+}
+.already{
+    position: absolute;
+    top: 700px;
+    left: 550px;
+}
+#btn2{
+    display: none;
+}
+.agree2{
+    display: none;
+}
+.lang{
+    position: absolute;
+    top: 760px;
+    left: 500px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.language{
+    color: black;
+} 
+.help{
+    color: white;
+    position: absolute;
+    top: 760px;
+    left: 740px;
+    text-decoration: none;
+} 
+.Privacy{
+    color: white;
+    position: absolute;
+    top: 760px;
+    left: 785px;
+    text-decoration: none
+}
+.Terms{
+    color: white;
+    position: absolute;
+    top: 760px;
+    left: 680px;
+    text-decoration: none;
+}
+.end{
+    position: absolute;
+    top: 770px;
+    left: 1050px;
+    color: gray;
+}
+@media screen  and (max-width:475px){
+    .div{
+      left: 0px;
+      top: 70px;
+    }
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        display: block;
+        background-color: black;
+        height: 70px;
+    }
+    .text{
+        text-align: center;
+        left: 20px;
+        top: 660px;
+        font-size: 11px;
+    }
+    .already{
+        left: 20px;
+        top: 720px;
+    }
+    .end{
+       display: none;
+    }
+    .lang{
+        top: 800px;
+        left: 15px;
+        color: black;
+    }
+    .help{
+        color: black;
+        top: 800px;
+        left: 120px;
+    }
+    .Privacy{
+        color: black;
+        top: 800px;
+        left: 170px;
+    }
+    .Terms{
+        color: black;
+        top: 800px;
+        left: 230px;
+    }
+    .img{
+        display: none;
+    }
+    #brand{
+        position: absolute;
+        left: 20px;
+    }
+    #class{
+       display: none;
+    }
+    #floatingInput{
+        width: 250px !important;
+        margin-left: 0px !important;
+        
+    }
+    #btn1{
+        display: none;
+    }
+    #btn2{
+        display: block;
+    }
+    .agree1{
+        display: none;
+    }
+    .agree2{
+        display: block;
+    }
+    .robort{
+        width: 260px;
+    }
+    .input{
+        margin: 4px 0 0 4px;
+        line-height: normal;
+        width: 30px;
+        height: 60px;
+    }
+    .label{
+        left: 60px;
+        top: 460px;
+    }
+}

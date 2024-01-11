@@ -1,0 +1,129 @@
+#header{
+  background-color: rgba(0, 0, 0, 0.322);
+  z-index: 2;
+  opacity: 0.5;
+  position: fixed;
+  width: 100%;
+}
+.image{
+  position: absolute;
+  top: 20px;
+  left: 210px;
+}
+/* .div{
+  background-color: red !important;
+}
+#class{
+  width: 200px;
+} */
+.form{
+  padding-left: 90px;
+  width: 850px;
+}
+.login{
+  position: absolute;
+  right: 180px;
+  top: 20px;
+}
+.log{
+  text-decoration: none;
+  color: white;
+}
+.sign-up{
+  position: absolute;
+  right: 60px;
+  top: 22px;
+}
+.sign{
+  color: #000;
+  text-decoration: none;
+  font-family: "Proxima Nova" "helvetica neue" helvetica arial sans-serif; 
+}
+.but{
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  /* border-radius: 8%; */
+  border: solid white;
+}
+.find{
+  position: absolute;
+  left: 350px;
+  top:250px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+} 
+.your{
+  position: absolute;
+  top: 200px;
+  color: white;
+  left: 450px;
+  font-size: 50px;
+}
+.button{
+  position: absolute;
+  top: 400px;
+  width: 200px;
+  height: 60px;
+  left: 600px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5%;
+}
+#dark{
+  display: none;
+}
+@media screen and (max-width:475px){
+  #carousel{
+    height: 400px;
+  }
+  .image{
+    top: 20px;
+    left: 130px;
+  }
+  .form{
+    /* top: 200px; */
+    width: 50px;
+    padding-left: 10px;
+  }
+  .login{
+    right: 100px;
+  }
+  .sign-up{
+    right: 160px;
+    height : 20px;
+  }
+  .but{
+    width: 74px;
+    height: 30px;
+    position: absolute;
+    left: -90px;
+  }
+  #header{
+    height: 70px;
+  }
+  .your{
+    top: 100px;
+    left: 60px !important;
+    font-size: 30px;
+  }
+  .find{
+    top: 130px; 
+    left: 20px !important;
+    font-size: 15px;
+  }
+  .button{
+    top: 220px;
+    width: 150px;
+    height: 50px;
+    left: 120px !important;
+    font-size: 20px;
+  }
+  #white{
+    display: none;
+  }
+  #dark{
+    display: block;
+  }
+}
