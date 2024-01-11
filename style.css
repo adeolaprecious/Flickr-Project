@@ -88,10 +88,11 @@
     padding-left: 10px;
   }
   .login{
-    right: 100px;
+    right: 0px;
+    color: yellow !important;
   }
   .sign-up{
-    right: 160px;
+    right: 58px;
     height : 20px;
   }
   .but{

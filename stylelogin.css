@@ -78,6 +78,9 @@
         width: 50px;
         padding-left: 0px;
     }
+    .not{
+        margin-left: -20px;
+    }
     .help{
         color: black;
         top: 440px;
@@ -103,7 +106,7 @@
     }
     #nav2{
         display: block;
-        width: 83%;
+        width: 73%;
         height: 30px;
     }
     #nav1{
